@@ -1,5 +1,8 @@
 name: Meshery End-to-End Tests with mesheryctl
 on:
+  push:
+    branches:
+      - "my-mesheryctl"
   workflow_dispatch:
     inputs:
       profile_name:
